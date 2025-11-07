@@ -1,0 +1,64 @@
+﻿@page
+@model Q2.Pages.Services.ListModel
+@{
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            <form method="post" id="fr_search">
+                <div class="form-group">
+					@Html.AntiForgeryToken()
+                    <label for="roomTitle">Room Title:</label>
+                    <input type="text" id="in_roomTitle" name="roomTitle" value="@Model.RoomTitle" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="month">Fee Type:</label>
+                    <input type="text" id="in_feeType" name="feetype" value="@Model.FeeType" class="form-control" />
+                </div>
+                <br>
+                <button id="bt_submit" type="submit" class="btn btn-primary">Search</button>
+            </form>
+
+            <table class="table mt-3">
+                <thead>
+                    <tr>
+                        <th>Room Title</th>
+                        <th>Fee Type</th>
+                        <th>Month</th>
+                        <th>Year</th>
+                        <th>Amount</th>
+                        <th>Payment Status</th>
+                        <th>Employee</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var s in Model.Results)
+                    {
+                        <tr>
+                            <td id="td_roomTitle_@s.Id">@s.RoomTitle</td>
+                            <td id="td_feeType_@s.Id">@s.FeeType</td>
+                            <td id="td_month_@s.Id">@s.Month</td>
+                            <td id="td_year_@s.Id">@s.Year</td>
+                            <td id="td_amount_@s.Id">@((int?)Math.Round(s.Amount ?? 0) ?? 0)</td>
+                            <td id="td_paymentStatus_@s.Id">
+								@(s.PaymentDate.HasValue ? "Service has been paid" : "Unpaid")
+                            </td>
+                            <td id="td_employee_@s.Id">
+                                @(s.EmployeeNavigation?.Name ?? "N/A")
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </main>
+    </div>
+
+</body>
+</html>

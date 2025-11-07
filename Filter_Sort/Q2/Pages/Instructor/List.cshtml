@@ -1,0 +1,61 @@
+﻿@page
+
+@model Q2.Pages.Instructor.ListModel
+@{
+}
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+</head>
+
+<body>
+
+    <form method="get" asp-page="/Instructor/List">
+        Department
+        <select id="sl_de" name="Department">
+            @foreach (var d in Model.Departments)
+            {
+                <option id="de_@d.DepartmentId" value="@d.DepartmentId">@d.DepartmentName</option>
+            }
+            
+        </select>
+
+        Contract Type
+        <select id="sl_contract" name="IsFulltime">
+            <option selected id="con_full" value="Fulltime">Fulltime</option>
+            <option id="con_part" value="Parttime">Parttime</option>
+        </select>
+        <br />
+        Sort by:
+        <input name="SortBy" type="radio" checked id="rd_instructorName" value="instructorName" /> InstructorName &nbsp;
+        <input name="SortBy" type="radio" id="rd_instructorId" value="instructorId" /> InstructorId &nbsp;
+        <input name="SortBy" type="radio" id="rd_contractDate" value="contractDate" /> ContractDate &nbsp;
+        <br />
+        <input type="submit" value="Filter" id="btn_submit" />
+    </form>
+    <h2>List of Instructors</h2>
+    <table border="1">
+
+        @for (int index = 0; index < Model.Instructors.Count; index++ )
+        {
+            var i = Model.Instructors[index];
+
+            <tr>
+                <td id="td_instructorId_@index">@i.InstructorId</td>
+                <td id="td_fullName_@index">@i.Fullname</td>
+                <td id="td_department_@index">
+                    @i.DepartmentNavigation.DepartmentName
+                </td>
+                <td id="td_contractDate_@index">@(i.ContractDate.Value.ToString("dd/MM/yyyy"))</td>
+            </tr>
+            
+        }
+
+    </table>
+</body>
+
+</html>

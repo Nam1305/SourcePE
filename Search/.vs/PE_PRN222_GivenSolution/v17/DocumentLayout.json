@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Work Space\\PE_PRN222_GivenSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E6B50EF-D5F2-4978-913C-D7D8F8899632}|Q2\\Q2.csproj|d:\\work space\\pe_prn222_givensolution\\q2\\pages\\services\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E6B50EF-D5F2-4978-913C-D7D8F8899632}|Q2\\Q2.csproj|solutionrelative:q2\\pages\\services\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E6B50EF-D5F2-4978-913C-D7D8F8899632}|Q2\\Q2.csproj|d:\\work space\\pe_prn222_givensolution\\q2\\pages\\services\\list.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E6B50EF-D5F2-4978-913C-D7D8F8899632}|Q2\\Q2.csproj|solutionrelative:q2\\pages\\services\\list.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E6B50EF-D5F2-4978-913C-D7D8F8899632}|Q2\\Q2.csproj|d:\\work space\\pe_prn222_givensolution\\q2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E6B50EF-D5F2-4978-913C-D7D8F8899632}|Q2\\Q2.csproj|solutionrelative:q2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E6B50EF-D5F2-4978-913C-D7D8F8899632}|Q2\\Q2.csproj|d:\\work space\\pe_prn222_givensolution\\q2\\models\\prnsum25b123context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E6B50EF-D5F2-4978-913C-D7D8F8899632}|Q2\\Q2.csproj|solutionrelative:q2\\models\\prnsum25b123context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E6B50EF-D5F2-4978-913C-D7D8F8899632}|Q2\\Q2.csproj|d:\\work space\\pe_prn222_givensolution\\q2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7E6B50EF-D5F2-4978-913C-D7D8F8899632}|Q2\\Q2.csproj|solutionrelative:q2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E6B50EF-D5F2-4978-913C-D7D8F8899632}|Q2\\Q2.csproj|d:\\work space\\pe_prn222_givensolution\\q2\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7E6B50EF-D5F2-4978-913C-D7D8F8899632}|Q2\\Q2.csproj|solutionrelative:q2\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A74824-36FE-445E-93C6-DD088D093870}|Q1\\Q1.csproj|d:\\work space\\pe_prn222_givensolution\\q1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7A74824-36FE-445E-93C6-DD088D093870}|Q1\\Q1.csproj|solutionrelative:q1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E6B50EF-D5F2-4978-913C-D7D8F8899632}|Q2\\Q2.csproj|d:\\work space\\pe_prn222_givensolution\\q2\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E6B50EF-D5F2-4978-913C-D7D8F8899632}|Q2\\Q2.csproj|solutionrelative:q2\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Work Space\\PE_PRN222_GivenSolution\\Q2\\appsettings.json",
+              "RelativeDocumentMoniker": "Q2\\appsettings.json",
+              "ToolTip": "D:\\Work Space\\PE_PRN222_GivenSolution\\Q2\\appsettings.json",
+              "RelativeToolTip": "Q2\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-05T10:23:14.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Prnsum25B123Context.cs",
+              "DocumentMoniker": "D:\\Work Space\\PE_PRN222_GivenSolution\\Q2\\Models\\Prnsum25B123Context.cs",
+              "RelativeDocumentMoniker": "Q2\\Models\\Prnsum25B123Context.cs",
+              "ToolTip": "D:\\Work Space\\PE_PRN222_GivenSolution\\Q2\\Models\\Prnsum25B123Context.cs",
+              "RelativeToolTip": "Q2\\Models\\Prnsum25B123Context.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:23:10.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Work Space\\PE_PRN222_GivenSolution\\Q2\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Q2\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Work Space\\PE_PRN222_GivenSolution\\Q2\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Q2\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-05T10:22:09.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Work Space\\PE_PRN222_GivenSolution\\Q2\\Program.cs",
+              "RelativeDocumentMoniker": "Q2\\Program.cs",
+              "ToolTip": "D:\\Work Space\\PE_PRN222_GivenSolution\\Q2\\Program.cs",
+              "RelativeToolTip": "Q2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:15:48.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Service.cs",
+              "DocumentMoniker": "D:\\Work Space\\PE_PRN222_GivenSolution\\Q2\\Models\\Service.cs",
+              "RelativeDocumentMoniker": "Q2\\Models\\Service.cs",
+              "ToolTip": "D:\\Work Space\\PE_PRN222_GivenSolution\\Q2\\Models\\Service.cs",
+              "RelativeToolTip": "Q2\\Models\\Service.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T03:36:04.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Work Space\\PE_PRN222_GivenSolution\\Q1\\Program.cs",
+              "RelativeDocumentMoniker": "Q1\\Program.cs",
+              "ToolTip": "D:\\Work Space\\PE_PRN222_GivenSolution\\Q1\\Program.cs",
+              "RelativeToolTip": "Q1\\Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwEwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T02:02:08.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "List.cshtml.cs",
+              "DocumentMoniker": "D:\\Work Space\\PE_PRN222_GivenSolution\\Q2\\Pages\\Services\\List.cshtml.cs",
+              "RelativeDocumentMoniker": "Q2\\Pages\\Services\\List.cshtml.cs",
+              "ToolTip": "D:\\Work Space\\PE_PRN222_GivenSolution\\Q2\\Pages\\Services\\List.cshtml.cs",
+              "RelativeToolTip": "Q2\\Pages\\Services\\List.cshtml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T16:59:31.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "D:\\Work Space\\PE_PRN222_GivenSolution\\Q2\\Pages\\Services\\List.cshtml",
+              "RelativeDocumentMoniker": "Q2\\Pages\\Services\\List.cshtml",
+              "ToolTip": "D:\\Work Space\\PE_PRN222_GivenSolution\\Q2\\Pages\\Services\\List.cshtml",
+              "RelativeToolTip": "Q2\\Pages\\Services\\List.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T16:57:10.105Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

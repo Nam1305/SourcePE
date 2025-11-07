@@ -1,0 +1,90 @@
+﻿@page
+@model Q2.Pages.Employee.ListModel
+@{
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <div b-b4snup7eis class="container">
+        <main b-b4snup7eis role="main" class="pb-3">
+            <div class="text-center">
+                <h1 class="display-4">Employee List Page</h1>
+                <div>
+                    <div>
+                        <form action="/Employee/List" method="post">
+                            @Html.AntiForgeryToken()
+                            <select id="sl_department" name="Department">
+                                <option value="" selected disabled>Select one department</option>
+                                @foreach (var d in Model.departments)
+                                {
+
+                                    <option id="op_@d.DepartmentId" value="@(d.DepartmentName)">@(d.DepartmentName)</option>
+                                }
+                                </select>
+                            
+                            <button type="submit" id="bt_filter">Filter</button>
+                        </form>
+                    </div>
+
+                    <div>
+                        <div style="width:70%;float:left">
+                            <h2>Employee List:</h2>
+                            <table>
+                                <tr>
+                                    <th>EmployeeName</th>
+                                    <th>DateOfBirth</th>
+                                    <th>Department</th>
+                                    <th>Position</th>
+                                    <th>HireDate</th>
+                                    <th></th>
+                                </tr>
+                                @foreach(var e in Model.employees)
+                                {
+                                    <tr>
+                                        <td id="td_employeeName_@e.EmployeeId">@(e.Name)</td>
+                                        <td id="td_dateOfBirth_@e.EmployeeId">@(e.Dob.Value.ToString("dd/MM/yyyy"))</td>
+                                        <td id="td_department_@e.EmployeeId">@(e.Department.DepartmentName)</td>
+                                        <td id="td_position_@e.EmployeeId">@(e.Position)</td>
+                                        <td id="td_hireDate_@e.EmployeeId">@(e.HireDate.Value.ToString("dd/MM/yyyy"))</td>
+                                        <td>
+                                            <a id="a_@e.EmployeeId" href="?EmployeeId=@e.EmployeeId">View skills</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </table>
+                        </div>
+                        <div style="width:30%;float:left">
+                            @if(Model.selectedEmployee != null)
+                            {
+                                <h2>Skills of employee "John Doe":</h2>
+                                <table>
+                                    <tr>
+                                        <th>Skill Name</th>
+                                        <th>ProficiencyLevel</th>
+                                        <th>AcquiredDate</th>
+                                    </tr>
+
+                                    @foreach (var e in Model.selectedEmployee.EmployeeSkills)
+                                    {
+                                        <tr>
+                                            <td id="td_skillName_@e.SkillId">@(e.Skill.SkillName)</td>
+                                            <td id="td_proficiencyLevel_@e.SkillId">@(e.ProficiencyLevel)</td>
+                                            <td id="td_acquiredDate_@e.SkillId">@(e.AcquiredDate.Value.ToString("dd/MM/yyyy") ?? "No Content")</td>
+                                        </tr>
+                                    }
+                                </table>
+                            }
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+</body>
+</html>

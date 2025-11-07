@@ -1,0 +1,14 @@
+D:\Download\drive-download-20251104T093912Z-1-001\PRN222_Su25\PRN222_Su25\PE_PRN222_GivenSolution\Q1\bin\Debug\net8.0\Q1.exe
+D:\Download\drive-download-20251104T093912Z-1-001\PRN222_Su25\PRN222_Su25\PE_PRN222_GivenSolution\Q1\bin\Debug\net8.0\Q1.deps.json
+D:\Download\drive-download-20251104T093912Z-1-001\PRN222_Su25\PRN222_Su25\PE_PRN222_GivenSolution\Q1\bin\Debug\net8.0\Q1.runtimeconfig.json
+D:\Download\drive-download-20251104T093912Z-1-001\PRN222_Su25\PRN222_Su25\PE_PRN222_GivenSolution\Q1\bin\Debug\net8.0\Q1.dll
+D:\Download\drive-download-20251104T093912Z-1-001\PRN222_Su25\PRN222_Su25\PE_PRN222_GivenSolution\Q1\bin\Debug\net8.0\Q1.pdb
+D:\Download\drive-download-20251104T093912Z-1-001\PRN222_Su25\PRN222_Su25\PE_PRN222_GivenSolution\Q1\obj\Debug\net8.0\Q1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Download\drive-download-20251104T093912Z-1-001\PRN222_Su25\PRN222_Su25\PE_PRN222_GivenSolution\Q1\obj\Debug\net8.0\Q1.AssemblyInfoInputs.cache
+D:\Download\drive-download-20251104T093912Z-1-001\PRN222_Su25\PRN222_Su25\PE_PRN222_GivenSolution\Q1\obj\Debug\net8.0\Q1.AssemblyInfo.cs
+D:\Download\drive-download-20251104T093912Z-1-001\PRN222_Su25\PRN222_Su25\PE_PRN222_GivenSolution\Q1\obj\Debug\net8.0\Q1.csproj.CoreCompileInputs.cache
+D:\Download\drive-download-20251104T093912Z-1-001\PRN222_Su25\PRN222_Su25\PE_PRN222_GivenSolution\Q1\obj\Debug\net8.0\Q1.dll
+D:\Download\drive-download-20251104T093912Z-1-001\PRN222_Su25\PRN222_Su25\PE_PRN222_GivenSolution\Q1\obj\Debug\net8.0\refint\Q1.dll
+D:\Download\drive-download-20251104T093912Z-1-001\PRN222_Su25\PRN222_Su25\PE_PRN222_GivenSolution\Q1\obj\Debug\net8.0\Q1.pdb
+D:\Download\drive-download-20251104T093912Z-1-001\PRN222_Su25\PRN222_Su25\PE_PRN222_GivenSolution\Q1\obj\Debug\net8.0\Q1.genruntimeconfig.cache
+D:\Download\drive-download-20251104T093912Z-1-001\PRN222_Su25\PRN222_Su25\PE_PRN222_GivenSolution\Q1\obj\Debug\net8.0\ref\Q1.dll

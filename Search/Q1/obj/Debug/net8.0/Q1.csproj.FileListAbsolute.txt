@@ -1,0 +1,14 @@
+D:\Work Space\PE_PRN222_GivenSolution\Q1\bin\Debug\net8.0\Q1.exe
+D:\Work Space\PE_PRN222_GivenSolution\Q1\bin\Debug\net8.0\Q1.deps.json
+D:\Work Space\PE_PRN222_GivenSolution\Q1\bin\Debug\net8.0\Q1.runtimeconfig.json
+D:\Work Space\PE_PRN222_GivenSolution\Q1\bin\Debug\net8.0\Q1.dll
+D:\Work Space\PE_PRN222_GivenSolution\Q1\bin\Debug\net8.0\Q1.pdb
+D:\Work Space\PE_PRN222_GivenSolution\Q1\obj\Debug\net8.0\Q1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work Space\PE_PRN222_GivenSolution\Q1\obj\Debug\net8.0\Q1.AssemblyInfoInputs.cache
+D:\Work Space\PE_PRN222_GivenSolution\Q1\obj\Debug\net8.0\Q1.AssemblyInfo.cs
+D:\Work Space\PE_PRN222_GivenSolution\Q1\obj\Debug\net8.0\Q1.csproj.CoreCompileInputs.cache
+D:\Work Space\PE_PRN222_GivenSolution\Q1\obj\Debug\net8.0\Q1.dll
+D:\Work Space\PE_PRN222_GivenSolution\Q1\obj\Debug\net8.0\refint\Q1.dll
+D:\Work Space\PE_PRN222_GivenSolution\Q1\obj\Debug\net8.0\Q1.pdb
+D:\Work Space\PE_PRN222_GivenSolution\Q1\obj\Debug\net8.0\Q1.genruntimeconfig.cache
+D:\Work Space\PE_PRN222_GivenSolution\Q1\obj\Debug\net8.0\ref\Q1.dll

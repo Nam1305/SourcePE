@@ -1,0 +1,55 @@
+﻿<Window x:Class="Q1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Q1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="3*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Left Panel -->
+        <StackPanel Grid.Column="0" VerticalAlignment="Top" HorizontalAlignment="Stretch" Margin="0,0,10,0">
+            <TextBlock Text="Star's info" FontWeight="Bold" FontSize="16" Margin="0,0,0,15" />
+
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                <Label Content="Star Name" Width="80" />
+                <TextBox x:Name="txtStarName" Width="180"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                <Label Content="Dob" Width="80" />
+                <DatePicker x:Name="dpDob" Width="180" />
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                <Label Content="Description" Width="80" />
+                <TextBox x:Name="txtDescription" Width="180"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                <Label Content="Is male" Width="80" />
+                <CheckBox x:Name="chkIsMale" />
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,15">
+                <Label Content="Nationality" Width="80" />
+                <TextBox x:Name="txtNationality" Width="180"/>
+            </StackPanel>
+
+            <Button x:Name="btnAddToList" Content="Add To List" Width="260" Height="30" HorizontalAlignment="Left" Click="btnAddToList_Click" />
+        </StackPanel>
+
+        <!-- Right Panel -->
+        <StackPanel Grid.Column="1" VerticalAlignment="Top">
+            <TextBox x:Name="txtList" Height="220" AcceptsReturn="True" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto"/>
+            <Button x:Name="btnSendToServer" Content="Send to server" Height="30" Margin="0,10,0,0" Click="btnSendToServer_Click"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

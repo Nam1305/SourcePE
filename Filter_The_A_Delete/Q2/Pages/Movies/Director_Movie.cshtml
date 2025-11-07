@@ -1,0 +1,68 @@
+﻿@page
+@model Q2.Pages.Movies.Director_MovieModel
+@{
+}
+
+<h2>Directors</h2>
+<div style="display: flex;">
+
+    <div style="margin-right: 30px;width: 300px">
+
+        @foreach (var d in Model.Directors)
+            {
+            <div>
+                <a href="?DirectorId=@d.Id" id="di_@d.Id">
+                    @d.FullName
+                </a>
+            </div>
+            }
+            
+       
+    </div>
+
+
+    <div style="width: 1000px">
+        <h2>List of Movies</h2>
+        <table border="1" cellpadding="5" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Release Date</th>
+                    <th>Description</th>
+                    <th>Language</th>
+                    <th>Director</th>
+                    <th>Stars</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                @foreach(var m in Model.Results)
+                {
+                    string x = "";
+                    
+                    <tr>
+                        <td id="td_title_@(m.Id)">@m.Title</td>
+                        <td id="td_releaseDate_@(m.Id)">@m.ReleaseDate.Value.ToString("MM/dd/yyyy")</td>
+                        <td id="td_description_@(m.Id)">@m.Description</td>
+                        <td id="td_language_@(m.Id)">@m.Language</td>
+                        <td id="td_director_@(m.Id)">@m.Director.FullName</td>
+                        <td id="td_stars_@(m.Id)">
+                            @foreach(var s in m.Stars)
+                            {
+                                x += s.FullName + ",";
+                            }
+							@(x.TrimEnd(','))
+                        </td>
+                        <td id="td_action_@(m.Id)">
+                            <a href="/Movies/Director_Movie?handler=Delete&MovieId=@(m.Id)" id="btn_delete_@(m.Id)">
+                                Delete
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
